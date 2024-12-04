@@ -3,14 +3,14 @@
 This Repository contains all the DevOps Tools installation guide and learning with setup of all required commands
 
 **-> Tools Included:**
--> Jenkins
--> Git
--> Docker/Conatiners
--> Kubernetes
--> Ansible
--> Terraform
--> AWS (Cloud)
--> Premotheous
--> Grafana
--> Maven
--> Splunk
+Jenkins
+Git
+Docker/Conatiners
+Kubernetes
+Ansible
+Terraform
+AWS (Cloud)
+Premotheous
+Grafana
+Maven
+Splunk
