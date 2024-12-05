@@ -2,18 +2,20 @@
 
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It allows multiple developers to work on a project simultaneously without overwriting each other's changes.
 
-***Key Features of Git***
+<h2>Key Features of Git</h2>
 
-**Distributed System:** Every developer has a full copy of the repository, including its history.
-**Branching and Merging:** Git supports powerful branching and merging, allowing you to experiment with new features safely.
-**Staging Area:** Git has a staging area where you can format and review changes before committing them.
-***Lightweight:** Git is fast and efficient, making it suitable for large projects.
+</body>
+<p><h3>Distributed System:</h3> Every developer has a full copy of the repository, including its history.</p>
+<p> <h3>Branching and Merging:</h3> Git supports powerful branching and merging, allowing you to experiment with new features safely.</p>
+<p><h3>Staging Area:</h3> Git has a staging area where you can format and review changes before committing them.</p>
+<p><h3>Lightweight:</h3> Git is fast and efficient, making it suitable for large projects.</p>
+</body>
 
 ***Stages in Git***
 
 In Git, files go through several stages as they move through the version control process. Understanding these stages is crucial for effective version control. 
 
-***Here are the main stages in Git:***
+<h2>Here are the main stages in Git:</h2>
 
 **1. Working Directory**
 
@@ -27,7 +29,7 @@ The staging area is like a preparation area where you can review and format chan
 
 Once changes are staged, you commit them to the Git directory using the git commit command. The Git directory stores the metadata and object database for your project. It keeps track of all your commits and the history of your project.
 
-**Remote Repository**
+**4. Remote Repository**
 
 When collaborating with others, you push your commits to a remote repository (e.g., GitHub, GitLab). This allows others to access your changes and collaborate on the project. The git push command is used to upload your local commits to the remote repository.
 
@@ -52,15 +54,17 @@ git commit -m "Commit message"
 git push origin <branch_name>
 ```
 
-Commands Summary
+***Commands Summary***
+
 <body>
-<p>Check Status: *git status* </p>
-<p>Add to Staging Area: *git add* <file_name></p>
-<p>Commit Changes: *git commit -m "Commit message"*</p>
-<p>Push to Remote: *git push origin* <branch_name></p>
+<p>Check Status: <b>git status</b></p>
+<p>Add to Staging Area: <b>git add <file_name></b></p>
+<p>Commit Changes: <b>git commit -m "Commit message"</b></p>
+<p>Push to Remote: <b>git push origin <branch_name></b></p>
 </body>
 
-***Basic Git Commands***
+
+<h1>Basic Git Commands</h1>
 
 *Initialize a Repository:*
 
@@ -100,12 +104,12 @@ git push origin <branch_name>
 git pull origin <branch_name>
 ```
 
-**Best Practices**
+<h2>Best Practices</h2>
 
 <body>
-<p> *Commit Often:* Make small, frequent commits to keep your changes manageable.</p>
-<p> *Write Meaningful Commit Messages:* Clearly describe what changes were made and why.</p>
-<p> *Use Branches:* Create branches for new features or bug fixes to keep your main branch stable.</p>
-<p> *Review Changes:* Use the staging area to review changes before committing them.</p>
+<p> <h4>Commit Often:</h4> Make small, frequent commits to keep your changes manageable.</p>
+<p> <h4>Write Meaningful Commit Messages:</h4> Clearly describe what changes were made and why.</p>
+<p> <h4>Use Branches:</h4> Create branches for new features or bug fixes to keep your main branch stable.</p>
+<p> <h4>Review Changes:</h4> Use the staging area to review changes before committing them.</p>
 </body>
 Git is a powerful tool that can greatly enhance your development workflow. If you have any specific questions or need further details, feel free to ask!
