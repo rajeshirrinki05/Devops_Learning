@@ -9,7 +9,7 @@ Git is a distributed version control system designed to handle everything from s
 **Staging Area:** Git has a staging area where you can format and review changes before committing them.
 ***Lightweight:** Git is fast and efficient, making it suitable for large projects.
 
-***Stages in Git ***
+*** Stages in Git ***
 
 In Git, files go through several stages as they move through the version control process. Understanding these stages is crucial for effective version control. 
 
@@ -35,7 +35,8 @@ When collaborating with others, you push your commits to a remote repository (e.
 
 *Modify Files:* Make changes to your files in the working directory.
 *Stage Changes:* Add changes to the staging area.
-	```
+	
+    ```
 	git add <file_name>
 	```
 
@@ -52,11 +53,12 @@ When collaborating with others, you push your commits to a remote repository (e.
 ```
 
 Commands Summary
-Check Status: git status
-Add to Staging Area: git add <file_name>
-Commit Changes: git commit -m "Commit message"
-Push to Remote: git push origin <branch_name>
-
+,body>
+<p>Check Status: git status </p>
+<p>Add to Staging Area: git add <file_name></p>
+<p>Commit Changes: git commit -m "Commit message"</p>
+<p>Push to Remote: git push origin <branch_name></p>
+</body>
 ***Basic Git Commands***
 
 *Initialize a Repository:*
