@@ -1,9 +1,9 @@
 # Below steps will explain how to install Git in the linux system.
 
 #First identify which Operation system is using
-```python
- cat /etc/os-release
-```
+
+ `cat /etc/os-release`
+
 **example Output :**
 NAME="Ubuntu"
 VERSION="18.04.4 LTS (Bionic Beaver)"
@@ -28,4 +28,6 @@ Update your package index:
 
   Verify the installation:
    **git --version**
-   ![alt text](image.png)
+Install Man pages for git
+
+`sudo apt-get install git-man`
