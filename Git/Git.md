@@ -35,20 +35,21 @@ When collaborating with others, you push your commits to a remote repository (e.
 
 **Example Workflow**
 
-*Modify Files:* Make changes to your files in the working directory.
-*Stage Changes:* Add changes to the staging area.
+<b>Modify Files:</b> Make changes to your files in the working directory.
+
+<b>Stage Changes:</b> Add changes to the staging area.
 
 ```
 git add <file_name>
 ```
 
-*Commit Changes:* Commit the staged changes to the Git directory.
+<b>Commit Changes:</b> Commit the staged changes to the Git directory.
 
 ```
 git commit -m "Commit message"
 ```
 
-*Push to Remote:* Push your commits to a remote repository.
+<b>Push to Remote:</b> Push your commits to a remote repository.
 
 ```
 git push origin <branch_name>
