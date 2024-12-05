@@ -2,7 +2,7 @@
 
 This Repository contains all the DevOps Tools installation guide and learning with setup of all required commands
 
-***-> Tools Included:***
+<h2> Tools Included:</h2>
 <body>
 <p>Jenkins</p>
 <p>Git</p>
@@ -12,7 +12,7 @@ This Repository contains all the DevOps Tools installation guide and learning wi
 <p>Terraform</p>
 <p>AWS (Cloud)</p>
 <p>Premotheous</p>
-<p>**Grafana</p>
-<p>**Maven</p>
+<p>Grafana</p>
+<p>Maven</p>
 <p>Splunk</p>
 </body>
