@@ -2,10 +2,9 @@
 
 #First identify which Operation system is using
 
- ```
-    cat /etc/os-release
+ ```bash
+  cat /etc/os-release
     ```
-
 **example Output :**
 NAME="Ubuntu"
 VERSION="18.04.4 LTS (Bionic Beaver)"
@@ -23,13 +22,19 @@ UBUNTU_CODENAME=bionic
 I am using ubuntu, Let's see how we can install git in the Ubuntu Linux OS
 
 Update your package index:
- **sudo apt update**
+
+ ``` 
+ sudo apt update
+  ```
 
  Install Git:
-  **sudo apt install git**
+
+  ``` sudo apt install git ```
 
   Verify the installation:
-   **git --version**
+  
+  ``` git --version ```
+
 Install Man pages for git
 
-`sudo apt-get install git-man`
+```sudo apt-get install git-man```
