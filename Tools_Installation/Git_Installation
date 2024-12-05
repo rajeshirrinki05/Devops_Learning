@@ -2,7 +2,9 @@
 
 #First identify which Operation system is using
 
- `cat /etc/os-release`
+ ```bash
+    cat /etc/os-release
+    ```
 
 **example Output :**
 NAME="Ubuntu"
