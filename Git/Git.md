@@ -1,4 +1,4 @@
-***What is Git?***
+<h2>What is Git?</h2>
 
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It allows multiple developers to work on a project simultaneously without overwriting each other's changes.
 
@@ -11,11 +11,11 @@ Git is a distributed version control system designed to handle everything from s
 <p><h3>Lightweight:</h3> Git is fast and efficient, making it suitable for large projects.</p>
 </body>
 
-***Stages in Git***
+<h2>Stages in Git</h2>
 
 In Git, files go through several stages as they move through the version control process. Understanding these stages is crucial for effective version control. 
 
-<h2>Here are the main stages in Git:</h2>
+**Here are the main stages in Git:**
 
 **1. Working Directory**
 
@@ -66,39 +66,38 @@ git push origin <branch_name>
 
 <h1>Basic Git Commands</h1>
 
-*Initialize a Repository:*
+Initialize a Repository:
 
 ```
 git init
 ```
 
-*Clone a Repository:*
+Clone a Repository:
 
 ```
 git clone <repository_url>
 ```
 
-*Check Status:*
+Check Status:
 
 ```
 git status
 ```
-*Add Changes to Staging Area:*
+Add Changes to Staging Area:
 
 ```
 git add <file_name>
 ```
 
-*Commit Changes:*
+Commit Changes:
 ```
 git commit -m "Commit message"
 ```
-*Push Changes to Remote Repository:*
-
+Push Changes to Remote Repository:
 ```
 git push origin <branch_name>
 ```
-*Pull Changes from Remote Repository:*
+Pull Changes from Remote Repository:
 
 ```
 git pull origin <branch_name>
