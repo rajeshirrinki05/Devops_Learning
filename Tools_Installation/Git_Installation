@@ -2,7 +2,7 @@
 
 #First identify which Operation system is using
 
- ```bash
+ ```
     cat /etc/os-release
     ```
 
