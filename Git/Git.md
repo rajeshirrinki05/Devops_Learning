@@ -9,7 +9,7 @@ Git is a distributed version control system designed to handle everything from s
 **Staging Area:** Git has a staging area where you can format and review changes before committing them.
 ***Lightweight:** Git is fast and efficient, making it suitable for large projects.
 
-*** Stages in Git ***
+***Stages in Git***
 
 In Git, files go through several stages as they move through the version control process. Understanding these stages is crucial for effective version control. 
 
@@ -35,30 +35,31 @@ When collaborating with others, you push your commits to a remote repository (e.
 
 *Modify Files:* Make changes to your files in the working directory.
 *Stage Changes:* Add changes to the staging area.
-	
-    ```
-	git add <file_name>
-	```
+
+```
+git add <file_name>
+```
 
 *Commit Changes:* Commit the staged changes to the Git directory.
 
 ```
-	git commit -m "Commit message"
+git commit -m "Commit message"
 ```
 
 *Push to Remote:* Push your commits to a remote repository.
 
 ```
-	git push origin <branch_name>
+git push origin <branch_name>
 ```
 
 Commands Summary
-,body>
-<p>Check Status: git status </p>
-<p>Add to Staging Area: git add <file_name></p>
-<p>Commit Changes: git commit -m "Commit message"</p>
-<p>Push to Remote: git push origin <branch_name></p>
+<body>
+<p>Check Status: *git status* </p>
+<p>Add to Staging Area: *git add* <file_name></p>
+<p>Commit Changes: *git commit -m "Commit message"*</p>
+<p>Push to Remote: *git push origin* <branch_name></p>
 </body>
+
 ***Basic Git Commands***
 
 *Initialize a Repository:*
@@ -101,9 +102,10 @@ git pull origin <branch_name>
 
 **Best Practices**
 
-*Commit Often:* Make small, frequent commits to keep your changes manageable.
-*Write Meaningful Commit Messages:* Clearly describe what changes were made and why.
-*Use Branches:* Create branches for new features or bug fixes to keep your main branch stable.
-*Review Changes:* Use the staging area to review changes before committing them.
-
+<body>
+<p> *Commit Often:* Make small, frequent commits to keep your changes manageable.</p>
+<p> *Write Meaningful Commit Messages:* Clearly describe what changes were made and why.</p>
+<p> *Use Branches:* Create branches for new features or bug fixes to keep your main branch stable.</p>
+<p> *Review Changes:* Use the staging area to review changes before committing them.</p>
+</body>
 Git is a powerful tool that can greatly enhance your development workflow. If you have any specific questions or need further details, feel free to ask!
