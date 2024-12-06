@@ -112,4 +112,3 @@ git pull origin <branch_name>
 <p> <h4>Use Branches:</h4> Create branches for new features or bug fixes to keep your main branch stable.</p>
 <p> <h4>Review Changes:</h4> Use the staging area to review changes before committing them.</p>
 </body>
-Git is a powerful tool that can greatly enhance your development workflow. If you have any specific questions or need further details, feel free to ask!
